@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    font-family: 'inter';
+}
+
+#logo{
+    margin-left: 75px;
+    margin-top: 50px;
+}
+#cabecalho{
+    background-image: url(imagens/fundo-menu-sup.svg);
+    color: white;
+}
+
+#cabecalho h1{
+    margin-left: 175px;
+    margin-top: 50px;
+}
+#cabecalho p{
+    margin-left: 175px;
+    margin-top: 35px;
+    padding-bottom: 100px;
+}
+
+#menuInform{
+    background-color:#EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+.icone{
+    margin: 50px 0px 50px 100px;
+    padding: 20px;
+}
+.txtInform{
+    display: flex;
+    align-items: center;
+    columns: auto;
+}
+
+#secaovideo{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+#video{
+    margin: 50px 25px 50px 100px;
+}
+
+#titulovideo{
+    color: #247BA0;
+    margin-top: 50px;
+
+}
+
+#carrossel{
+    background-color: #247BA0;
+    padding: 50px;
+}
+
+#titulocar{
+    color: #EAECE5;
+    text-align: center;
+    font-size: 25px;
+}
+
+#div-cards{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.card{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#seta-esq{
+    display: none;
+}
+
+.seta{
+    margin-top: 60px;
+    cursor: pointer;
+}
+
+.seta:hover{
+    transform: translateY(-7px);
+    transition-duration: 1s;
+}
+
+#Bruna{
+    display: none;
+}
+#formulario{
+    text-align: center;
+}
+
+#tituloForm{
+    font-size: 26px;
+    margin: 20px;
+    color: #383838;
+}
+
+input{
+    width: 300px;
+    height: 40px;
+    background-color: #EAECE5;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+button{
+    color: #FFFFFF;
+    border: 0px;
+    background-color: #247BA0;
+    width: 260px;
+    height: 45px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #339dca;
+    color: white;
+    transform: translateY(-4px);
+    box-shadow: 0px 15px 20px #0e121f82;
+    transition-duration: 1s;
+}
